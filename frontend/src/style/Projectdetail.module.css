@@ -1,0 +1,50 @@
+
+
+.decordefault {
+  background-color: #ffffff;
+  padding: 3em;
+  height: 100vh;
+}
+.contact .controls {
+  position: relative;
+}
+
+.contact .controls .cover {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  min-height: 150px;
+}
+.cover {
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+}
+
+.containercontact {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+.containercontact div[class^="col-"] {
+  position: relative;
+  min-height: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.contactdescription {
+  font-size: 16px;
+  line-height: 36px;
+}
+ul {
+  padding: 0; 
+  margin: 0; 
+}
+
+ul li {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+}

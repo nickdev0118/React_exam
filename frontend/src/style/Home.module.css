@@ -1,0 +1,179 @@
+
+.card2 {
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+  box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+  border: none;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.greybg {  
+  background-color: #F5F7FA;
+  color: black !important;
+}
+
+
+* {
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+a {
+text-decoration: none;
+}
+
+.moviecard {
+background-image: url('https://wallpaperaccess.com/full/3222527.jpg');
+background-size: contain;
+background-position: -20% 80%;
+background-repeat: no-repeat;
+width: 75%;
+max-width: 800px;
+height: 300px;
+display: block;
+margin: 8vh auto;
+border-radius: 8px;
+-webkit-box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.25);
+}
+
+.moviecard:nth-child(2) {
+background-image: url("https://wallpaperaccess.com/full/3222527.jpg");
+background-position: -20% 80%;
+}
+
+.coloroverlay {
+width: 100%;
+height: 100%;
+border-radius: 8px;
+background: -webkit-gradient(linear, left top, right top, from(rgba(42, 159, 255, 0.2)), color-stop(60%, #212120), to(#212120));
+background: linear-gradient(to right, rgba(42, 159, 255, 0.2) 0%, #212120 60%, #212120 100%);
+background-blend-mode: multiply;
+padding: 1.2em;
+}
+
+h1, h2, h3 {
+font-family: "Montserrat", helvetica, arial, sans-serif;
+text-transform: uppercase;
+letter-spacing: 2px;
+line-height: 1;
+font-weight: 400;
+}
+
+.moviecontent {
+width: 40%;
+display: block;
+position: relative;
+float: right;
+padding-right: 1em;
+}
+.moviecontent .movietitle {
+color: #ffffff;
+margin-bottom: .25em;
+opacity: .75;
+}
+.moviecontent .movieinfo {
+text-transform: uppercase;
+letter-spacing: 2px;
+font-size: .8em;
+color: #2a9fff;
+line-height: 1;
+margin: 0;
+font-weight: 700;
+opacity: .5;
+}
+.moviecontent .movieheader {
+margin-bottom: 2em;
+}
+.moviecontent .moviedesc {
+font-weight: 300;
+opacity: .84;
+margin-bottom: 2em;
+color: #2a9fff;
+}
+
+.btn2 {
+padding: .8em 2em;
+background-color: rgba(255, 255, 255, 0.2);
+color: white;
+}
+
+.btnoutline {
+background-color: transparent;
+border: 3px solid #ffffff;
+border-radius: 4px;
+}
+
+.btn2::before {
+font-family: 'Material Icons';
+vertical-align: middle;
+font-size: 1.5em;
+padding-right: .5em;
+}
+
+.btnoutline:hover {
+border-color: #2a9fff;
+color: #2a9fff;
+-webkit-box-shadow: 0px 1px 8px 0px rgba(245, 199, 0, 0.2);
+        box-shadow: 0px 1px 8px 0px rgba(245, 199, 0, 0.2);
+}
+
+.movieshare {
+padding: 1em;
+display: inline-block;
+width: 25%;
+}
+
+.movieshareicon {
+margin-left: .5em;
+color: white;
+mix-blend-mode: lighten;
+opacity: .4;
+font-size: 1.3em;
+margin-right: 0.5em;
+}
+
+.movieshareicon i:hover {
+color: red;
+}
+
+@media (max-width: 1000px) {
+  .moviecontent {
+    width: 50%;
+    max-width: 95%;
+  }
+}
+@media (max-width: 800px) {
+  .moviecard {
+    width: 95%;
+    max-width: 95%;
+  }
+}
+@media (max-width: 600px) {
+  .moviecard, .moviecard:nth-child(2), .moviecard:nth-child(3) {
+    background-position: 50% 0%;
+    background-size: cover;
+    height: 400px;
+  }
+
+  .coloroverlay {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(42, 159, 255, 0.2)), color-stop(60%, #212120), to(#212120));
+    background: linear-gradient(to bottom, rgba(42, 159, 255, 0.2) 0%, #212120 60%, #212120 100%);
+  }
+
+  .moviecontent {
+    margin-top: 4.2em;
+    width: 90%;
+  }
+
+  .movieshare {
+    display: block;
+    width: 100%;
+  }
+}
+
+.fa-project-diagram {
+  font-size: 3em;
+}
